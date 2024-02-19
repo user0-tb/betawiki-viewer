@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jtmcn.archwiki.viewer">
+    package="com.user0.betawiki.viewer">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -26,8 +26,8 @@
             </intent-filter>
             <intent-filter>
                 <data
-                    android:host="wiki.archlinux.org"
-                    android:pathPrefix="/index.php/"
+                    android:host="betawiki.net"
+                    android:pathPrefix="/wiki/Main_Page/"
                     android:scheme="https" />
 
                 <action android:name="android.intent.action.VIEW" />
