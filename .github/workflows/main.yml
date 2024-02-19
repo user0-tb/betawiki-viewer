@@ -32,7 +32,7 @@ jobs:
     - name: Validate Gradle Wrapper
       uses: gradle/wrapper-validation-action@v1
     - name: 🧹 Clean
-      run: ./gradlew clean
+      run: ./gradlew clean lint
     - name: 🔨 Build
       run: ./gradlew build
     - name: 💬 Upload Lint report
